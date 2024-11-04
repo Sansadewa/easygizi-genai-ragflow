@@ -48,3 +48,246 @@ ES updateByQuery deleteByQuery: NotFoundError(404, 'index_not_found_exception', 
 2024-11-04 01:13:58,506 ERROR    (23) Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING
 2024-11-04 01:14:07,008 ERROR    (23) Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING
 Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING
+Signature b'lORh05SRa2tGGFSN2BlxaYsOQvc' does not match
+Traceback (most recent call last):
+  File "/ragflow/api/apps/__init__.py", line 111, in load_user
+    access_token = str(jwt.loads(authorization))
+  File "/usr/local/lib/python3.10/dist-packages/itsdangerous/timed.py", line 226, in loads
+    raise _t.cast(BadSignature, last_exception)
+  File "/usr/local/lib/python3.10/dist-packages/itsdangerous/timed.py", line 210, in loads
+    base64d, timestamp = signer.unsign(
+  File "/usr/local/lib/python3.10/dist-packages/itsdangerous/timed.py", line 136, in unsign
+    raise BadTimeSignature(str(sig_error), payload=value, date_signed=ts_dt)
+itsdangerous.exc.BadTimeSignature: Signature b'lORh05SRa2tGGFSN2BlxaYsOQvc' does not match
+401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/usr/local/lib/python3.10/dist-packages/flask_login/utils.py", line 285, in decorated_view
+    return current_app.login_manager.unauthorized()
+  File "/usr/local/lib/python3.10/dist-packages/flask_login/login_manager.py", line 178, in unauthorized
+    abort(401)
+  File "/usr/local/lib/python3.10/dist-packages/flask/helpers.py", line 272, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/exceptions.py", line 861, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Unauthorized: 401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+Signature b'lORh05SRa2tGGFSN2BlxaYsOQvc' does not match
+Traceback (most recent call last):
+  File "/ragflow/api/apps/__init__.py", line 111, in load_user
+    access_token = str(jwt.loads(authorization))
+  File "/usr/local/lib/python3.10/dist-packages/itsdangerous/timed.py", line 226, in loads
+    raise _t.cast(BadSignature, last_exception)
+  File "/usr/local/lib/python3.10/dist-packages/itsdangerous/timed.py", line 210, in loads
+    base64d, timestamp = signer.unsign(
+  File "/usr/local/lib/python3.10/dist-packages/itsdangerous/timed.py", line 136, in unsign
+    raise BadTimeSignature(str(sig_error), payload=value, date_signed=ts_dt)
+itsdangerous.exc.BadTimeSignature: Signature b'lORh05SRa2tGGFSN2BlxaYsOQvc' does not match
+401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/usr/local/lib/python3.10/dist-packages/flask_login/utils.py", line 285, in decorated_view
+    return current_app.login_manager.unauthorized()
+  File "/usr/local/lib/python3.10/dist-packages/flask_login/login_manager.py", line 178, in unauthorized
+    abort(401)
+  File "/usr/local/lib/python3.10/dist-packages/flask/helpers.py", line 272, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/exceptions.py", line 861, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Unauthorized: 401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 6
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 6
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 15
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 16
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 4
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 13
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 31
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 13
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 31
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 14
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 33
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 30
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 18
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 18
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 11
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 31
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 10
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 16
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 444
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 10
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 21
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 10
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 10
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 19
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 10
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 12
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 8
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 11
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 11
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 10
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 11
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 13
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 11
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 12
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 17
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 14
+Signature b'lxdaS19lATIShfC45Lx6WOExwNU' does not match
+Traceback (most recent call last):
+  File "/ragflow/api/apps/__init__.py", line 111, in load_user
+    access_token = str(jwt.loads(authorization))
+  File "/usr/local/lib/python3.10/dist-packages/itsdangerous/timed.py", line 226, in loads
+    raise _t.cast(BadSignature, last_exception)
+  File "/usr/local/lib/python3.10/dist-packages/itsdangerous/timed.py", line 210, in loads
+    base64d, timestamp = signer.unsign(
+  File "/usr/local/lib/python3.10/dist-packages/itsdangerous/timed.py", line 136, in unsign
+    raise BadTimeSignature(str(sig_error), payload=value, date_signed=ts_dt)
+itsdangerous.exc.BadTimeSignature: Signature b'lxdaS19lATIShfC45Lx6WOExwNU' does not match
+401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/usr/local/lib/python3.10/dist-packages/flask_login/utils.py", line 285, in decorated_view
+    return current_app.login_manager.unauthorized()
+  File "/usr/local/lib/python3.10/dist-packages/flask_login/login_manager.py", line 178, in unauthorized
+    abort(401)
+  File "/usr/local/lib/python3.10/dist-packages/flask/helpers.py", line 272, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/exceptions.py", line 861, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Unauthorized: 401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/usr/local/lib/python3.10/dist-packages/flask_login/utils.py", line 285, in decorated_view
+    return current_app.login_manager.unauthorized()
+  File "/usr/local/lib/python3.10/dist-packages/flask_login/login_manager.py", line 178, in unauthorized
+    abort(401)
+  File "/usr/local/lib/python3.10/dist-packages/flask/helpers.py", line 272, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/exceptions.py", line 861, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Unauthorized: 401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/usr/local/lib/python3.10/dist-packages/flask_login/utils.py", line 285, in decorated_view
+    return current_app.login_manager.unauthorized()
+  File "/usr/local/lib/python3.10/dist-packages/flask_login/login_manager.py", line 178, in unauthorized
+    abort(401)
+  File "/usr/local/lib/python3.10/dist-packages/flask/helpers.py", line 272, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/exceptions.py", line 861, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Unauthorized: 401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/usr/local/lib/python3.10/dist-packages/flask_login/utils.py", line 285, in decorated_view
+    return current_app.login_manager.unauthorized()
+  File "/usr/local/lib/python3.10/dist-packages/flask_login/login_manager.py", line 178, in unauthorized
+    abort(401)
+  File "/usr/local/lib/python3.10/dist-packages/flask/helpers.py", line 272, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/exceptions.py", line 861, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Unauthorized: 401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/usr/local/lib/python3.10/dist-packages/flask_login/utils.py", line 285, in decorated_view
+    return current_app.login_manager.unauthorized()
+  File "/usr/local/lib/python3.10/dist-packages/flask_login/login_manager.py", line 178, in unauthorized
+    abort(401)
+  File "/usr/local/lib/python3.10/dist-packages/flask/helpers.py", line 272, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/exceptions.py", line 861, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Unauthorized: 401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/usr/local/lib/python3.10/dist-packages/flask_login/utils.py", line 285, in decorated_view
+    return current_app.login_manager.unauthorized()
+  File "/usr/local/lib/python3.10/dist-packages/flask_login/login_manager.py", line 178, in unauthorized
+    abort(401)
+  File "/usr/local/lib/python3.10/dist-packages/flask/helpers.py", line 272, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/exceptions.py", line 861, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Unauthorized: 401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/usr/local/lib/python3.10/dist-packages/flask_login/utils.py", line 285, in decorated_view
+    return current_app.login_manager.unauthorized()
+  File "/usr/local/lib/python3.10/dist-packages/flask_login/login_manager.py", line 178, in unauthorized
+    abort(401)
+  File "/usr/local/lib/python3.10/dist-packages/flask/helpers.py", line 272, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/exceptions.py", line 861, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Unauthorized: 401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/usr/local/lib/python3.10/dist-packages/flask_login/utils.py", line 285, in decorated_view
+    return current_app.login_manager.unauthorized()
+  File "/usr/local/lib/python3.10/dist-packages/flask_login/login_manager.py", line 178, in unauthorized
+    abort(401)
+  File "/usr/local/lib/python3.10/dist-packages/flask/helpers.py", line 272, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/exceptions.py", line 861, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Unauthorized: 401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/usr/local/lib/python3.10/dist-packages/flask_login/utils.py", line 285, in decorated_view
+    return current_app.login_manager.unauthorized()
+  File "/usr/local/lib/python3.10/dist-packages/flask_login/login_manager.py", line 178, in unauthorized
+    abort(401)
+  File "/usr/local/lib/python3.10/dist-packages/flask/helpers.py", line 272, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/exceptions.py", line 861, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Unauthorized: 401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 12
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 11
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 11
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 11
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 12
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 26
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 14
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 23
+Can't update token usage for 801d07ae9a4911ef9f140242ac120006/EMBEDDING used_tokens: 14
