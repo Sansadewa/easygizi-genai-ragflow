@@ -1,6 +1,6 @@
 <div align="center">
   <h1><b>PROPOSAL GOV-AI HACKATHON</b></h1>
-  <h2><b>EasyGizi</b></h2> img src width alt
+  <h2><b>EasyGizi</b></h2>
   <img src="web/easygizi.png" alt="EasyGizi GenAI" width="520">
   <p><b>Generative AI dalam Sistem Pengelolaan Program Makan Bergizi Gratis yang Efektif, Transparan, dan Memberdayakan Komoditas Lokal</b></p>
 </div>
@@ -97,19 +97,18 @@
   <div align="center">
     <img src="web/links.png" alt="Links and QR" width="520">
   </div>
-  <h3><b>Arsitektur Sistem</b></h3>
   <div align="center">
+  <h3><b>Arsitektur Sistem</b></h3>
     <img src="web/arsitektur.png" alt="Architecture Diagram" width="520">
   </div>
 
-  <h3><b>Alur Sistem</b></h3>
   <div align="center">
+  <h3><b>Alur Sistem</b></h3>
     <img src="web/alur.png" alt="System Flow" width="520">
   </div>
 
-  <h3><b>Mockup</b></h3>
-  <p><i>Gambar mockup antarmuka pengguna EasyGizi akan ditempatkan di sini.</i></p>
   <div align="center">
+  <h3><b>Mockup</b></h3>
     <img src="web/mockup.jpg" alt="Mockup User" width="520">
     <img src="web/mockup-pengawas.jpg" alt="Mockup Pengawas" width="520">
   </div>
