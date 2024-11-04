@@ -1,0 +1,8 @@
+2024-11-04 01:13:31,501 INFO     (23) From minio(0.30553669999972044) Data Bulanan Bulog Juni.xlsx/Data Bulanan Bulog Juni.xlsx
+2024-11-04 01:13:33,586 INFO     (23) naive_merge(Data Bulanan Bulog Juni.xlsx): 0.18725990400071169
+2024-11-04 01:13:33,587 INFO     (23) Chunking(2.393381001000307) Data Bulanan Bulog Juni.xlsx/Data Bulanan Bulog Juni.xlsx
+2024-11-04 01:13:33,588 INFO     (23) MINIO PUT(Data Bulanan Bulog Juni.xlsx):0
+2024-11-04 01:13:33,588 INFO     (23) Build chunks(Data Bulanan Bulog Juni.xlsx): 2.3948165110004993
+2024-11-04 01:14:08,086 INFO     (23) Embedding elapsed(Data Bulanan Bulog Juni.xlsx): 34.14
+2024-11-04 01:14:30,990 INFO     (23) Indexing elapsed(Data Bulanan Bulog Juni.xlsx): 11.02
+2024-11-04 01:14:33,282 INFO     (23) Chunk doc(a6378e509a4911ef85950242ac120006), token(7037), chunks(42), elapsed:13.32

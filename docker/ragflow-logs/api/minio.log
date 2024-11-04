@@ -1,0 +1,1 @@
+Fail put 801d093e9a4911ef9f140242ac120006/Data Bulanan Bulog Juni.xlsx: S3 operation failed; code: NoSuchBucket, message: The specified bucket does not exist, resource: /801d093e9a4911ef9f140242ac120006, request_id: 18049EABAE21BA83, host_id: dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8, bucket_name: 801d093e9a4911ef9f140242ac120006
